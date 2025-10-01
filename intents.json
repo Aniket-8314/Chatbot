@@ -1,0 +1,175 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up","hii"],
+      "responses": ["Hi there!", "Hello 👋", "Hey, how can I help?", "I'm good, thanks for asking!"]
+    }, 
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+      "responses": ["Goodbye 👋", "See you later!", "Take care, have a nice day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome 😊", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need help", "Can you help me", "What should I do"],
+      "responses": ["Sure, what do you need help with?", "I'm here to assist. What's the problem?", "How can I help you today?"]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": ["Who are you", "What are you", "What can you do", "What is your purpose"],
+      "responses": ["I’m your personal chatbot 🤖", "My purpose is to assist you with info, horoscope, finance, and general knowledge."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you", "What's your age"],
+      "responses": ["I don’t have an age, I’m digital ✨", "I was just born in the world of code.", "Age is just a number for me 😉"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know a joke"],
+      "responses": ["Why don’t skeletons fight each other? Because they don’t have the guts 😂", "I tried to catch fog yesterday… Mist!"]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["Tell me a fact", "Give me an interesting fact", "Fun fact"],
+      "responses": ["Did you know? Honey never spoils 🍯", "Octopuses have 3 hearts 🐙", "Bananas are berries, but strawberries are not 🍓"]
+    },
+    {
+      "tag": "budget",
+      "patterns": ["How can I make a budget", "What's a good budgeting strategy", "How do I create a budget"],
+      "responses": [
+        "Start by tracking your income & expenses. Then allocate to essentials, savings, and extras.",
+        "A popular method is the 50/30/20 rule: 50% needs, 30% wants, 20% savings."
+      ]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": ["What is a credit score", "How do I check my credit score", "How can I improve my credit score"],
+      "responses": [
+        "A credit score is a number that shows your creditworthiness 📊",
+        "You can check free on sites like Credit Karma.",
+        "To improve: pay bills on time, reduce debt, avoid too many loans."
+      ]
+    },
+    {
+      "tag": "horoscope_greeting",
+      "patterns": ["Tell me my horoscope", "Give me today's horoscope", "What is my horoscope", "Horoscope please"],
+      "responses": ["Sure! Which zodiac sign are you?", "Please tell me your zodiac sign to continue."]
+    },
+    {
+      "tag": "horoscope_general",
+      "patterns": ["Weekly horoscope", "Monthly horoscope", "Future predictions", "Astrology forecast"],
+      "responses": ["Would you like weekly, monthly, or yearly horoscope?", "Sure! Tell me your zodiac sign too."]
+    },
+    {
+      "tag": "zodiac_aries",
+      "patterns": ["Aries horoscope", "I'm Aries", "Tell me Aries horoscope"],
+      "responses": [
+        "Aries: A great day for new beginnings 🔥 Lucky number: 9, Color: Red.",
+        "Energy is high today 💪 Take initiative in career, and love blossoms if you’re expressive."
+      ]
+    },
+    {
+      "tag": "zodiac_taurus",
+      "patterns": ["Taurus horoscope", "I'm Taurus", "Tell me Taurus horoscope"],
+      "responses": [
+        "Taurus: Patience pays off today 🌱 Lucky number: 6, Color: Green.",
+        "Focus on stability. Romance strengthens with trust 💚"
+      ]
+    },
+    {
+      "tag": "zodiac_gemini",
+      "patterns": ["Gemini horoscope", "I'm Gemini", "Tell me Gemini horoscope"],
+      "responses": [
+        "Gemini: Communication is your strength today 🗣️ Lucky number: 5, Color: Yellow.",
+        "Curiosity opens doors 🌟 Relationships benefit from flexibility."
+      ]
+    },
+    {
+      "tag": "zodiac_cancer",
+      "patterns": ["Cancer horoscope", "I'm Cancer", "Tell me Cancer horoscope"],
+      "responses": [
+        "Cancer: Trust your intuition today 🌊 Lucky number: 2, Color: Silver.",
+        "Focus on family bonds 💙 Teamwork helps your career."
+      ]
+    },
+    {
+      "tag": "zodiac_leo",
+      "patterns": ["Leo horoscope", "I'm Leo", "Tell me Leo horoscope"],
+      "responses": [
+        "Leo: Confidence shines today 🦁 Lucky number: 1, Color: Gold.",
+        "Passion drives love, leadership drives career 🌟"
+      ]
+    },
+    {
+      "tag": "zodiac_virgo",
+      "patterns": ["Virgo horoscope", "I'm Virgo", "Tell me Virgo horoscope"],
+      "responses": [
+        "Virgo: Details matter 📖 Lucky number: 5, Color: Brown.",
+        "Plan carefully and stay organized for success ✅"
+      ]
+    },
+    {
+      "tag": "zodiac_libra",
+      "patterns": ["Libra horoscope", "I'm Libra", "Tell me Libra horoscope"],
+      "responses": [
+        "Libra: Balance is key ⚖️ Lucky number: 6, Color: Pink.",
+        "Relationships bloom with harmony, teamwork helps career."
+      ]
+    },
+    {
+      "tag": "zodiac_scorpio",
+      "patterns": ["Scorpio horoscope", "I'm Scorpio", "Tell me Scorpio horoscope"],
+      "responses": [
+        "Scorpio: Transformation is near 🦂 Lucky number: 7, Color: Black.",
+        "Embrace change today 🔥 Relationships deepen with trust."
+      ]
+    },
+    {
+      "tag": "zodiac_sagittarius",
+      "patterns": ["Sagittarius horoscope", "I'm Sagittarius", "Tell me Sagittarius horoscope"],
+      "responses": [
+        "Sagittarius: Adventure calls 🌍 Lucky number: 3, Color: Purple.",
+        "Stay optimistic ✨ Romance thrives with honesty."
+      ]
+    },
+    {
+      "tag": "zodiac_capricorn",
+      "patterns": ["Capricorn horoscope", "I'm Capricorn", "Tell me Capricorn horoscope"],
+      "responses": [
+        "Capricorn: Hard work pays off 🏔️ Lucky number: 8, Color: Grey.",
+        "Patience and persistence bring success 💼"
+      ]
+    },
+    {
+      "tag": "zodiac_aquarius",
+      "patterns": ["Aquarius horoscope", "I'm Aquarius", "Tell me Aquarius horoscope"],
+      "responses": [
+        "Aquarius: Creativity flows 💡 Lucky number: 7, Color: Blue.",
+        "Teamwork and innovation bring progress 🌊"
+      ]
+    },
+    {
+      "tag": "zodiac_pisces",
+      "patterns": ["Pisces horoscope", "I'm Pisces", "Tell me Pisces horoscope"],
+      "responses": [
+        "Pisces: Follow your dreams 🌌 Lucky number: 2, Color: Aqua.",
+        "Intuition is strong today ✨ Love feels magical."
+      ]
+    },
+    {
+      "tag": "general_knowledge",
+      "patterns": ["What is Google", "What is ChatGPT", "Tell me about AI", "Explain Python", "What is the internet","what"],
+      "responses": [
+        "Let me check Wikipedia for you 📖",
+        "Here’s what I found about that topic..."
+      ]
+    }
+  ]
+}
