@@ -7,3 +7,4 @@ flask
 scikit-learn
 nltk
 wikipedia
+gunicorn
