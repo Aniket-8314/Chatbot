@@ -6,7 +6,4 @@ seaborn
 flask
 scikit-learn
 nltk
-gensim
-openai
 wikipedia
-rasa
